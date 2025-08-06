@@ -1,4 +1,4 @@
-interface ALU_Interface(input logic clk, rst);
+interface alu_interface(input logic clk, rst);
   // Input and output signals
   logic signed [31:0] A; // Operand 1
   logic [31:0] B; // Operand 2
